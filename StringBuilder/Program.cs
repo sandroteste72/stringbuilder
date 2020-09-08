@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StringBuilder.Entities;
+using System;
 
 namespace StringBuilder
 {
@@ -6,7 +7,9 @@ namespace StringBuilder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Comment c1 = new Comment("Have a nice trip!");
+            Comment c2 = new Comment("Wow, thats awesome!");
+
         }
     }
 }
